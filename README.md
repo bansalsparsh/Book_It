@@ -1,4 +1,3 @@
-// --- README.md ---
 # BookIt – API Automation Testing Suite
 
 This is a simple room booking simulation written in Java to demonstrate API test automation using TestNG. No CI/CD tools are required. It is designed to show SDET skills including:
