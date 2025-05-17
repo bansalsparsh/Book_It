@@ -1,6 +1,6 @@
 # BookIt – API Automation Testing Suite
 
-BookIt is a Java-based room booking simulation demonstrating core SDET skills: test automation, data handling, and test case design using TestNG. It is designed to showcase strong fundamentals in writing isolated, reusable automated test cases and backend logic simulation.
+BookIt is a Java-based room booking simulation to demonstrate core SDET skills: test automation, data handling, and test case design using TestNG. It is designed to showcase strong fundamentals in writing isolated, reusable automated test cases and backend logic simulation.
 
 ## 🔧 How to Run
 
@@ -17,11 +17,13 @@ BookIt is a Java-based room booking simulation demonstrating core SDET skills: t
 - Isolated test cases ensuring no shared state interference  
 
 ## 📁 Project Structure
+
 BookIt/
-├── backend/ # Booking service implementation
-├── tests/ # TestNG test cases
-├── testng.xml # Test suite configuration
-└── README.md
+├── backend/               # Booking service implementation  
+├── tests/                 # TestNG test cases  
+├── testng.xml             # Test suite configuration  
+└── README.md              
+
 
 ## 📌 Skills Demonstrated
 
