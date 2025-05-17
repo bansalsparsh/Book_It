@@ -1,41 +1,37 @@
 # BookIt – API Automation Testing Suite
 
-This is a simple room booking simulation written in Java to demonstrate API test automation using TestNG. No CI/CD tools are required. It is designed to show SDET skills including:
-
-- Java + TestNG for writing test cases
-- In-memory data logic using Java Collections (HashMap, Set)
-- Manual and automated API-like logic testing
-- Covers positive, negative, and edge test scenarios
+BookIt is a Java-based room booking simulation demonstrating core SDET skills: test automation, data handling, and test case design using TestNG. It is designed to showcase strong fundamentals in writing isolated, reusable automated test cases and backend logic simulation.
 
 ## 🔧 How to Run
 
-1. Clone the repo
-2. Import as a Maven or Java project into IntelliJ or Eclipse
-3. Run tests using `testng.xml`
+1. Clone the repo  
+2. Import as a Maven or Java project into IntelliJ or Eclipse  
+3. Run automated tests using `testng.xml`  
 
 ## ✅ Features
-- User registration
-- Room booking
-- Booking validations (duplicate booking, invalid room)
-- Query available rooms and user bookings
 
-## 📁 Structure
-```
+- User registration  
+- Room booking with validation  
+- Prevent double-booking and invalid room bookings  
+- Query available rooms and user-specific bookings  
+- Isolated test cases ensuring no shared state interference  
+
+## 📁 Project Structure
 BookIt/
-├── backend/               # Booking logic
-├── tests/                 # TestNG test cases
-├── testng.xml             # Test suite config
+├── backend/ # Booking service implementation
+├── tests/ # TestNG test cases
+├── testng.xml # Test suite configuration
 └── README.md
-```
 
 ## 📌 Skills Demonstrated
-- Java fundamentals
-- Reusable test automation
-- Data structure use in backend logic
-- Clean code organization
-- Strong debugging/assertion use
+
+- Java + TestNG for modular and isolated test cases  
+- Strong use of collections (Map, Set) for backend logic modeling  
+- Structured, beginner-friendly automation suite  
+- Clean code organization and debugging/assertion skills  
 
 ## 🧪 Future Enhancements
-- Add CI/CD (GitHub Actions)
-- RESTful API layer with Spring Boot
-- Allure/Extent test reports
+
+- Integrate report generation tools like Allure or ExtentReports  
+- Add RESTful API layer with Spring Boot  
+- Introduce CI/CD pipeline for automated test runs and deployment
