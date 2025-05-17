@@ -18,12 +18,13 @@ BookIt is a Java-based room booking simulation to demonstrate core SDET skills: 
 
 ## 📁 Project Structure
 
+```plaintext
 BookIt/
 ├── backend/               # Booking service implementation  
 ├── tests/                 # TestNG test cases  
 ├── testng.xml             # Test suite configuration  
 └── README.md              
-
+```
 
 ## 📌 Skills Demonstrated
 
