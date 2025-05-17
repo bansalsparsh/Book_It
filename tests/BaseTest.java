@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 public class BaseTest {
     protected BookingService service;
 
-    @BeforeClass
+    @BeforeMethod
     public void setUp() {
         service = new BookingService();
     }
